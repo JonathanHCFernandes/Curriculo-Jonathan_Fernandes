@@ -1,0 +1,178 @@
+/*Corpo do site apenas alterando a fonte do site*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.principal{
+    max-width: 100%;
+    width: 70%;
+    height: 1043px;
+    margin-left: 195px;
+    border: solid 1px black; 
+}
+
+
+
+/*Inicia com o CV inglês escondido do leitor*/
+#ingles{
+    display: none;
+}
+
+/*Define o botao que fica ao lado direito em baixo no site*/
+button{
+    position: fixed; 
+    bottom: 15px; 
+    right: 15px; 
+    z-index: 999; 
+    background-color: white; 
+    border: none;
+    padding: 0;
+}
+
+img{
+    width: 70px;
+}
+
+.faixaAzul{
+    background-color: rgba(42, 42, 240, 0.745); 
+    height: 150px;
+    width: 100%;
+    border-bottom: solid 3px black;
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    padding-left: 200px;    
+    line-height: 42px;
+    margin: 0%;
+}
+
+
+h2{
+    margin-top: 40px;
+}
+
+
+h4{
+    font-family: quanton;
+    line-height: 0;
+}
+
+    @font-face {
+        font-family: [quanton];
+        src: url([C:\Users\NBA_j\Downloads\quanton\QuantonPERSONALUSEONLY-BoldItalic.otf]);
+        }
+
+
+span{
+    font-size: 20px;
+    padding-left: 230px;
+    margin-top: 30px;  
+    font-weight: bold; 
+}
+
+.fotoJonathan{
+    width: 165px;
+    margin-top: -115px;
+    margin-left: 40px;
+}
+
+
+.ladoEsquerdo{
+    width: 242px;
+    margin-left: 28px;
+    height: 20px;
+    margin-top: 22px;
+}
+
+
+.ladoDireito{
+    margin-top: -138px;
+    margin-right: 30px; 
+    margin-left: 316px;   
+}
+
+
+
+hr{
+    line-height: 0;
+    margin-top: -12px;
+}
+
+
+p{
+    margin-left: -78px;
+    margin-top: 18px;
+    margin-bottom: -13px;   
+}
+
+
+.whats{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -44px;
+    margin-left: -25px;
+}
+
+
+.email{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -44px;
+    margin-left: -25px;
+    
+}
+
+
+.linkedin{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -44px;
+    margin-left: -25px;
+}
+
+
+.github{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -44px;
+    margin-left: -25px;
+}
+
+
+.tamanhoWhats{
+    font-size: 14;
+    margin-left: -190px;
+}
+
+
+.tamanhoEmail{
+    font-size: 12;
+    margin-left: -190px;
+}
+
+
+.tamanhoLinkedin{
+    font-size: 14;
+    margin-left: -190px;
+}
+
+
+.tamanhoGithub{
+    font-size: 14;
+    margin-left: -190px;
+}
+
+
+.ajuste{
+    margin-top: 30px;
+}
+
+
+.ajusteDireito{
+    margin-top: 2px;
+}
+
